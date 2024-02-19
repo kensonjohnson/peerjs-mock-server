@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A no bells and whistles template to setup a TypeScript project. Perfect for beginners just learning TS.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node build/index.js",
     "build": "tsc",
@@ -17,5 +18,8 @@
     "nodemon": "latest",
     "ts-node": "latest",
     "typescript": "latest"
+  },
+  "dependencies": {
+    "peer": "^1.0.2"
   }
 }
