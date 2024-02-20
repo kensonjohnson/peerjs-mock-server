@@ -1,7 +1,7 @@
 {
   "name": "simple-typescript-template",
   "version": "1.0.0",
-  "description": "A no bells and whistles template to setup a TypeScript project. Perfect for beginners just learning TS.",
+  "description": "Peerjs server for javascript game",
   "main": "index.js",
   "type": "module",
   "scripts": {
