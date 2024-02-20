@@ -1,6 +1,6 @@
 import { PeerServer } from "peer";
 
-const PORT = 9002;
+const PORT = process.env.PORT as unknown as number;
 
 const peerServer = PeerServer({
   port: PORT,
